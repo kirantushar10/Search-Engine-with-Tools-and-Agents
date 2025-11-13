@@ -74,3 +74,27 @@ This converts any webpage into a **mini search engine**, allowing the LLaMA agen
 ```bash
 git clone https://github.com/kirantushar10/Search-Engine-with-Tools-and-Agents.git
 cd Search-Engine-with-Tools-and-Agents
+```
+
+### 2️⃣ Install all dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Add your API keys
+
+Add them to the .env file:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 📁 Project Structure
+
+```bash
+├── tools_agents.ipynb   # Main notebook demonstration
+├── README.md            # Project documentation
+└── requirements.txt     # Dependencies
+```
