@@ -118,3 +118,51 @@ GROQ_API_KEY = "Add your Groq API key here"
 ├── requirements.txt        # Dependencies
 └── .env                    # API keys for Groq + HuggingFace
 ```
+
+---
+
+##🧠 How the Search Engine Works
+
+### 📚 Wikipedia Tool
+
+Provides encyclopedia-style information instantly.
+
+### 📄 ArXiv Tool
+
+Helps users search for scientific papers and abstracts.
+
+### 🌐 Custom Web Loader Tool
+
+Transforms any webpage into a searchable space:
+
+Loads webpage using WebBaseLoader
+
+Splits text into chunks
+
+Embeds chunks using HuggingFace models
+
+Creates a retriever
+
+Agent queries the retriever to find relevant information
+
+### 🦙 Groq LLaMA Model
+
+Serves as the AI reasoning engine:
+
+Determines which tool to use
+
+Interprets retriever outputs
+
+Generates the final answers
+
+### 📊 LangSmith
+
+Monitors and visualizes the complete workflow:
+
+Tool calls
+
+Agent reasoning steps
+
+Latency
+
+Model inputs/outputs
