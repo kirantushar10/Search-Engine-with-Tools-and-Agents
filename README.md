@@ -86,7 +86,10 @@ pip install -r requirements.txt
 Add them to the .env file:
 
 ```bash
-pip install -r requirements.txt
+LANGCHAIN_API_KEY = "Add your Langchain API key here"
+LANGCHAIN_PROJECT = "Search Engine With Tools And Agents"
+HF_TOKEN = "Add your Hugging Face API key here"
+GROQ_API_KEY = "Add your Groq API key here"
 ```
 
 ---
