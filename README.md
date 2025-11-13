@@ -2,16 +2,17 @@
 
 <div align="center">
 
-✨ *An intelligent multi-tool research agent powered by LangChain + OpenAI* ✨  
-Fetch • Analyze • Summarize • Research — all in one workflow
+✨ *A powerful search engine built using LangChain Tools, Groq LLaMA, and HuggingFace Embeddings* ✨  
+Search • Fetch • Process • Answer — all through intelligent agents
 
 ---
 
-### 🚀 **Wikipedia** • 📄 **ArXiv** • 🌐 Custom Web Loader + Retriever • 🧠 LLM Reasoning
+### 🚀 **Wikipedia** • 📄 **ArXiv** • 🌐 Custom Web Loader + Retriever • 🦙 Groq LLaMA • 🔡 HuggingFace Embeddings
 
 ![Static Badge](https://img.shields.io/badge/Python-3.10+-blue)
 ![Static Badge](https://img.shields.io/badge/LangChain-Framework-orange)
-![Static Badge](https://img.shields.io/badge/OpenAI-LLM-success)
+![Static Badge](https://img.shields.io/badge/Groq-LLaMA-green)
+![Static Badge](https://img.shields.io/badge/HuggingFace-Embeddings-yellow)
 ![Static Badge](https://img.shields.io/badge/Status-Active-brightgreen)
 
 🔗 **GitHub Repository:**  
@@ -23,40 +24,53 @@ https://github.com/kirantushar10/Search-Engine-with-Tools-and-Agents
 
 ## 🌟 **Overview**
 
-This project demonstrates how to build a **research-ready AI agent** powered by LangChain and OpenAI.  
-The agent is enhanced with **three tools**, enabling it to retrieve and process information from multiple sources.
+This project showcases a **search engine powered by intelligent tools and agents**, built using:
 
-### 🧰 **Tools Used**
+- 🦙 **Groq LLaMA Model** for fast, accurate reasoning  
+- 🔡 **HuggingFace Embeddings** for vector search  
+- ⚙️ **LangChain Tools + Agents** for smart orchestration  
 
-#### 1️⃣ Wikipedia Tool  
-Fetches summarized information directly from Wikipedia.
+The system can search across Wikipedia, ArXiv, and any webpage using a custom loader and retriever.
 
-#### 2️⃣ ArXiv Tool  
-Retrieves scientific research papers, abstracts, and metadata from the ArXiv database.
+---
 
-#### 3️⃣ 🌐 **Custom Web-Based Loader Tool (via Retriever)**  
-A custom pipeline built using:
+## 🧰 **Tools Used**
 
-- **WebBaseLoader** → loads the webpage  
-- **Html2TextTransformer** → converts HTML to clean text  
-- **RecursiveCharacterTextSplitter** → splits large documents  
-- **Retriever** → turns processed data into a searchable information store  
+### 1️⃣ Wikipedia Tool  
+Fetches instant, high-level information from Wikipedia.
 
-This allows the agent to read, parse, chunk, and search through ANY webpage as if it were a knowledge base.
+### 2️⃣ ArXiv Tool  
+Retrieves scientific papers, abstracts, categories, and metadata.
+
+### 3️⃣ 🌐 Custom Web Loader Tool (Retriever-Based)  
+A custom search tool built using:
+
+- **WebBaseLoader** → Loads any webpage  
+- **RecursiveCharacterTextSplitter** → Breaks content into chunks  
+- **HuggingFace Embeddings** → Converts chunks into vector embeddings  
+- **Retriever** → Enables semantic, search-engine-style querying  
+
+This converts any webpage into a **mini search engine**, allowing the LLaMA agent to pull relevant info.
 
 ---
 
 ## ✨ **Key Features**
 
-✔️ Multi-tool AI Agent  
-✔️ Wikipedia Integration  
-✔️ ArXiv Research Fetcher  
-✔️ Custom Web Scraping + Text Cleaning Tool  
-✔️ Retriever-Enhanced Knowledge Querying  
-✔️ Automatic HTML Cleanup  
-✔️ Smart Document Chunking  
-✔️ OpenAI Tool-Augmented Reasoning  
-✔️ Prompt Templates from LangChain Hub  
-✔️ Easy-to-run Notebook Setup  
+✔️ Intelligent agent-powered search  
+✔️ Wikipedia + ArXiv + Web scraping tools  
+✔️ Retriever-based semantic search  
+✔️ Uses Groq LLaMA for ultra-fast inference  
+✔️ HuggingFace embedding integration  
+✔️ Smart text chunking  
+✔️ No OpenAI required  
+✔️ Runs entirely through LangChain  
 
 ---
+
+## 📦 **Installation**
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/kirantushar10/Search-Engine-with-Tools-and-Agents.git
+cd Search-Engine-with-Tools-and-Agents
