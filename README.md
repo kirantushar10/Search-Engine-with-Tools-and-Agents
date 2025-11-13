@@ -121,7 +121,7 @@ GROQ_API_KEY = "Add your Groq API key here"
 
 ---
 
-##🧠 How the Search Engine Works
+## 🧠 How the Search Engine Works
 
 ### 📚 Wikipedia Tool
 
@@ -135,34 +135,34 @@ Helps users search for scientific papers and abstracts.
 
 Transforms any webpage into a searchable space:
 
-Loads webpage using WebBaseLoader
+- Loads webpage using WebBaseLoader
 
-Splits text into chunks
+- Splits text into chunks
 
-Embeds chunks using HuggingFace models
+- Embeds chunks using HuggingFace models
 
-Creates a retriever
+- Creates a retriever
 
-Agent queries the retriever to find relevant information
+- Agent queries the retriever to find relevant information
 
 ### 🦙 Groq LLaMA Model
 
 Serves as the AI reasoning engine:
 
-Determines which tool to use
+- Determines which tool to use
 
-Interprets retriever outputs
+- Interprets retriever outputs
 
-Generates the final answers
+- Generates the final answers
 
 ### 📊 LangSmith
 
 Monitors and visualizes the complete workflow:
 
-Tool calls
+- Tool calls
 
-Agent reasoning steps
+- Agent reasoning steps
 
-Latency
+- Latency
 
-Model inputs/outputs
+- Model inputs/outputs
