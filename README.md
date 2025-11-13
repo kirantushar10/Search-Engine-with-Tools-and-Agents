@@ -94,7 +94,8 @@ pip install -r requirements.txt
 ## 📁 Project Structure
 
 ```bash
-├── tools_agents.ipynb   # Main notebook demonstration
-├── README.md            # Project documentation
-└── requirements.txt     # Dependencies
+├── tools_agents.ipynb      # Main notebook demonstration
+├── README.md               # Project documentation
+├── requirements.txt        # Dependencies
+└── .env                    # API keys for Groq + HuggingFace
 ```
