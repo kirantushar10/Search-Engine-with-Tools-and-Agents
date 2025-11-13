@@ -166,3 +166,9 @@ Monitors and visualizes the complete workflow:
 - Latency
 
 - Model inputs/outputs
+
+---
+
+### 🤝 Contributing
+
+Feel free to open issues or submit pull requests—contributions are greatly appreciated!
